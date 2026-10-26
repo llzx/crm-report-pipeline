@@ -1,0 +1,25 @@
+﻿# credentials
+.env
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# generated at runtime
+ghl.db
+ghl.db-journal
+out/*
+!out/.gitkeep
+data/*
+!data/.gitkeep
+tests/_tmp/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

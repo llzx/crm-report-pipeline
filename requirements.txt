@@ -1,0 +1,11 @@
+﻿# This project intentionally has no third-party runtime dependencies.
+#
+# Everything uses the Python standard library:
+#   urllib.request  -> HTTP
+#   sqlite3         -> storage
+#   json, re, datetime
+#
+# Nothing to install. Python 3.10+.
+#
+# Optional, for running the test suite under pytest instead of directly:
+#   pytest>=8.0
